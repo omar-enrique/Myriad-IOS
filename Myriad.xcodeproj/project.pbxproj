@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FC9234F3E36E2C6A52DB5DC /* Pods_Myriad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE51E8583150DEACD8A8FB6B /* Pods_Myriad.framework */; };
 		BE4450AC21056A5D00C6D0D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4450AB21056A5D00C6D0D2 /* AppDelegate.swift */; };
 		BE4450AE21056A5D00C6D0D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4450AD21056A5D00C6D0D2 /* ViewController.swift */; };
 		BE4450B121056A5D00C6D0D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4450AF21056A5D00C6D0D2 /* Main.storyboard */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		919846E12F376BDDBCF22AD7 /* Pods-Myriad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Myriad.release.xcconfig"; path = "Pods/Target Support Files/Pods-Myriad/Pods-Myriad.release.xcconfig"; sourceTree = "<group>"; };
+		AE51E8583150DEACD8A8FB6B /* Pods_Myriad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Myriad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4450A821056A5D00C6D0D2 /* Myriad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myriad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4450AB21056A5D00C6D0D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE4450AD21056A5D00C6D0D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		BE4450C721056A6100C6D0D2 /* MyriadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyriadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4450CB21056A6100C6D0D2 /* MyriadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyriadUITests.swift; sourceTree = "<group>"; };
 		BE4450CD21056A6100C6D0D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA4894A6DADED43CB5C83073 /* Pods-Myriad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Myriad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Myriad/Pods-Myriad.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC9234F3E36E2C6A52DB5DC /* Pods_Myriad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AFB92C7BD78F8742640A6F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA4894A6DADED43CB5C83073 /* Pods-Myriad.debug.xcconfig */,
+				919846E12F376BDDBCF22AD7 /* Pods-Myriad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BE44509F21056A5D00C6D0D2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +95,8 @@
 				BE4450BF21056A6100C6D0D2 /* MyriadTests */,
 				BE4450CA21056A6100C6D0D2 /* MyriadUITests */,
 				BE4450A921056A5D00C6D0D2 /* Products */,
+				4AFB92C7BD78F8742640A6F7 /* Pods */,
+				BFBD68A22E73CA73E6077120 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +141,14 @@
 			path = MyriadUITests;
 			sourceTree = "<group>";
 		};
+		BFBD68A22E73CA73E6077120 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE51E8583150DEACD8A8FB6B /* Pods_Myriad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE4450D021056A6100C6D0D2 /* Build configuration list for PBXNativeTarget "Myriad" */;
 			buildPhases = (
+				04CAD790BB9E0E1D93004E06 /* [CP] Check Pods Manifest.lock */,
 				BE4450A421056A5D00C6D0D2 /* Sources */,
 				BE4450A521056A5D00C6D0D2 /* Frameworks */,
 				BE4450A621056A5D00C6D0D2 /* Resources */,
+				DBCAB24BA7A261084D83768D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +276,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04CAD790BB9E0E1D93004E06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Myriad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBCAB24BA7A261084D83768D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Myriad/Pods-Myriad-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Myriad/Pods-Myriad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BE4450A421056A5D00C6D0D2 /* Sources */ = {
@@ -428,6 +495,7 @@
 		};
 		BE4450D121056A6100C6D0D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4894A6DADED43CB5C83073 /* Pods-Myriad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +513,7 @@
 		};
 		BE4450D221056A6100C6D0D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 919846E12F376BDDBCF22AD7 /* Pods-Myriad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
