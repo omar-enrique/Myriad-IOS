@@ -15,6 +15,7 @@
 		BE4450B621056A6000C6D0D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4450B421056A6000C6D0D2 /* LaunchScreen.storyboard */; };
 		BE4450C121056A6100C6D0D2 /* MyriadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4450C021056A6100C6D0D2 /* MyriadTests.swift */; };
 		BE4450CC21056A6100C6D0D2 /* MyriadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4450CB21056A6100C6D0D2 /* MyriadUITests.swift */; };
+		BE648F932113C8A600733FC6 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE648F922113C8A600733FC6 /* UserTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		BE4450C721056A6100C6D0D2 /* MyriadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyriadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4450CB21056A6100C6D0D2 /* MyriadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyriadUITests.swift; sourceTree = "<group>"; };
 		BE4450CD21056A6100C6D0D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE648F922113C8A600733FC6 /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
 		CA4894A6DADED43CB5C83073 /* Pods-Myriad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Myriad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Myriad/Pods-Myriad.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +118,7 @@
 				BE4450AB21056A5D00C6D0D2 /* AppDelegate.swift */,
 				BE4450AD21056A5D00C6D0D2 /* ViewController.swift */,
 				BE4450AF21056A5D00C6D0D2 /* Main.storyboard */,
+				BE648F922113C8A600733FC6 /* UserTableViewController.swift */,
 				BE4450B221056A6000C6D0D2 /* Assets.xcassets */,
 				BE4450B421056A6000C6D0D2 /* LaunchScreen.storyboard */,
 				BE4450B721056A6000C6D0D2 /* Info.plist */,
@@ -324,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE4450AE21056A5D00C6D0D2 /* ViewController.swift in Sources */,
+				BE648F932113C8A600733FC6 /* UserTableViewController.swift in Sources */,
 				BE4450AC21056A5D00C6D0D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
